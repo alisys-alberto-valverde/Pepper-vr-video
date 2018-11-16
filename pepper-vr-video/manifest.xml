@@ -1,10 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<package uuid="vr-video-opener-f0b64f" version="0.0.0">
+<package version="0.0.0" uuid="vr-video-opener-f0b64f">
  <names>
   <name lang="en_US">VR-video-opener</name>
  </names>
  <supportedLanguages>
   <language>es_ES</language>
+  <language>en_US</language>
  </supportedLanguages>
  <descriptionLanguages>
   <language>en_US</language>
@@ -13,6 +14,13 @@
  <contents>
   <behaviorContent path="behavior_1">
    <userRequestable/>
+   <nature>interactive</nature>
+   <triggerSentences/>
+   <loadingResponses/>
+   <autonomous/>
+   <permissions/>
+  </behaviorContent>
+  <behaviorContent path="image">
    <nature>interactive</nature>
    <permissions/>
   </behaviorContent>
